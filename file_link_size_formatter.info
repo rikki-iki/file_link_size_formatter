@@ -1,0 +1,5 @@
+name = "File formatter with file size"
+description = "Provides a field formatter that displays the file size"
+core = "7.x"
+dependencies[] = file
+package = Custom
