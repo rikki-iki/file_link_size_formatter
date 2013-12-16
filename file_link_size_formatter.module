@@ -45,7 +45,7 @@ function file_link_size_formatter_field_formatter_view($entity_type, $entity, $f
       }
 
       $element[$delta] = array(
-        '#markup' => '<span class="file">' . l($link_text, $url, $options) . ' (' . format_size($file['filesize']) . ')</span>',
+        '#markup' => l($link_text, $url, $options) . ' <span class="filesize">(' . format_size($file['filesize']) . ')</span>',
       );
     }
   }
